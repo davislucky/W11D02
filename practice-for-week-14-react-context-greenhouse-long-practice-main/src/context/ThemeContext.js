@@ -18,3 +18,7 @@ export default function ThemeProvider({ children }) {
     </ThemeContext.Provider>
   );
 }
+
+export const useThemeContext = () => {
+  return useContext(ThemeContext);
+}
