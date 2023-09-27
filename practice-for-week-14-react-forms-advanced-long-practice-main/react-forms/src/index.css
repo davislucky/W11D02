@@ -1,1 +1,26 @@
-/* TODO Add site wide styles */
+a {
+    padding: 15px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color: lightseagreen;
+    text-decoration: none;
+    color: black
+}
+a:hover {
+    background-color: seagreen;
+    color: white;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+}
+
+.home-words {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    height: 100px;
+}

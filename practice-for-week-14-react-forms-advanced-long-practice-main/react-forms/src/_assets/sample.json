@@ -43,12 +43,12 @@
                 {
                     "text": "No",
                     "label": "",
-                    "value": -1
+                    "value": 2
                 },
                 {
                     "text": "Don't Know",
                     "label": "",
-                    "value": 0
+                    "value": 3
                 }
             ]
         },

@@ -3,6 +3,7 @@ import { Home } from "./components/Home";
 import { Survey } from "./components/Survey";
 import { Navigation } from "./components/Navigation";
 import { Head } from "./components/Head";
+import Results from "./components/Results";
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
         <Switch>
           <Route path='/survey'>
             <Survey />
+          </Route>
+          <Route path='/results'>
+            <Results />
           </Route>
           <Route path='/'>
             <Home />

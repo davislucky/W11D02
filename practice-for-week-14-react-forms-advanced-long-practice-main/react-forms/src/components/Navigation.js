@@ -5,6 +5,7 @@ export function Navigation () {
         <>
             <nav>
                 <NavLink to='/survey'>Survey</NavLink>
+                <NavLink to='/results'>Results</NavLink>
                 <NavLink exact to='/'>Home</NavLink>
             </nav>
         </>
